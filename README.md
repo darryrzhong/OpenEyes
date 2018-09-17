@@ -63,6 +63,11 @@
 
 ![Screenshot_2018-09-17-12-10-56.jpeg](https://upload-images.jianshu.io/upload_images/5549640-f74b79b7053f6f34.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
 
+6.【关键词搜索】:实现关键词搜索相关视频,同步搜索历史记录
+
+![关键词搜索.jpeg](https://upload-images.jianshu.io/upload_images/5549640-200de7d533d9df94.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
+
+![搜索结果.jpeg](https://upload-images.jianshu.io/upload_images/5549640-b91201187b55d9b6.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
 
 
 
