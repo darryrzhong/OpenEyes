@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_disabled_holo.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_disabled_holo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_secondary_holo.9.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_focused_holo.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_mediacontroller.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_scrubber_control_selector_holo.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_scrubber_progress_horizontal_holo_dark.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_libarm.so.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\raw\\libarm.so"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_pause.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_pause.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_mediacontroller_button.xml.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\mediacontroller_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_normal_holo.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_play.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_play.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_pressed_holo.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_pressed_holo.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_track_holo_dark.9.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_primary_holo.9.png.flat",
+        "source": "E:\\AndroidStudioProjects\\OpenEyes\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_primary_holo.9.png"
+    }
+]

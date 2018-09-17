@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/appraise_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/nice_btn"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/nice_uncheck"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="18sp"
+                android:text="好评"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/nice"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+               android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+            <ImageButton
+                android:id="@+id/bad_btn"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/bad_uncheck"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:textSize="18sp"
+                android:text="差评"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/bad"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:id="@+id/recycle_view"
+    android:layout_margin="20dp"
+    >
+
+</android.support.v7.widget.RecyclerView>
+
+
+    <openeyes.dr.openeyes.widget.AnimationButton
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/animation_btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        />
+
+
+</LinearLayout>

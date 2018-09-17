@@ -1,0 +1,63 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:1-19:12
+	package
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:2:11-35
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:4:11-36
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:3:11-36
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.INTERNET
+ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:8:22-76
+application
+ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:10:5-17:19
+activity#io.vov.vitamio.activity.InitActivity
+ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:11:9-16:66
+	android:launchMode
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:14:17-47
+	android:windowSoftInputMode
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:16:17-64
+	android:configChanges
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:13:17-117
+	android:theme
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:15:17-64
+	android:name
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml:12:17-68
+uses-sdk
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\OpenEyes\vitamio\AndroidManifest.xml

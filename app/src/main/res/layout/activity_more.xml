@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorGrayalpha"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/cancle_back"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back_black"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/avatar_login"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                fresco:actualImageScaleType="centerCrop"
+                fresco:placeholderImageScaleType="centerCrop"
+                fresco:roundedCornerRadius="50dp"
+                />
+
+            <TextView
+                android:id="@+id/userid"
+                android:visibility="gone"
+                android:layout_marginTop="20dp"
+                android:textSize="12sp"
+                android:textColor="@color/colorBlack"
+                android:text="用户名"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="点击登录即可发表评论" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_grey_heart" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="喜欢" />
+        </LinearLayout>
+        <View
+            android:layout_gravity="center_vertical"
+            android:layout_width="0.5dp"
+            android:background="@color/colorBlack"
+            android:layout_height="30dp"></View>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_reply_grey_without_padding" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:gravity="center"
+                android:text="评论" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGrayalpha"/>
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="我的关注"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_watch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="成为作者"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_advise"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="意见反馈"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/out_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="退出登录"
+        android:textSize="14sp" />
+
+
+    <openeyes.dr.openeyes.widget.CustomTextView
+       android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily appetizers for your eyes，Bon eyepetit"
+        android:textColor="@color/colorGray" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="㉧  2018  darryrzhong.site"
+        android:id="@+id/textView"
+        />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_height="100dp"
+    >
+
+    <ImageView
+        android:id="@+id/ischeck"
+        android:visibility="gone"
+        android:background="@drawable/uncheck"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_photo"
+        android:layout_toRightOf="@+id/ischeck"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="9dp"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:roundedCornerRadius="7dp"
+        android:layout_width="160dp"
+        android:layout_height="80dp"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_photo"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="90dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:padding="5dp"
+            android:id="@+id/tv_title"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_detail"
+                android:textColor="@color/colorAniBtn"
+                android:textSize="12sp"/>
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:text="7月21日"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:textColor="@color/colorGray"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginLeft="170dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/view"
+        android:background="@color/colorGray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</RelativeLayout>

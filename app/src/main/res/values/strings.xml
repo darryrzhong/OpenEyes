@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name"  >OpenEyes</string>
+
+    <string name="loading_failed" translatable="false" >数据加载失败</string>
+    <string name="author" translatable="false">开眼 </string>
+
+    <string name="recommend" translatable="false">精彩推荐</string>
+    <string name="score" translatable="false">评分：</string>
+    <string name="videoType" translatable="false">类型：</string>
+    <string name="region" translatable="false">地区：</string>
+    <string name="airTime" translatable="false">上映时间：</string>
+    <string name="video_intro" translatable="false">简介</string>
+    <string name="video_comment" translatable="false">评论</string>
+    <string name="set_theme" translatable="false">设置主题</string>
+    <string name="theme" translatable="false">主题</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="done" translatable="false">完成</string>
+    <string name="wechat" translatable="false">微信</string>
+    <string name="moments" translatable="false">朋友圈</string>
+    <string name="weibo" translatable="false">微博</string>
+    <string name="qq" translatable="false">QQ</string>
+    <string name="qzone" translatable="false">QQ空间</string>
+    <string name="more" translatable="false">更多</string>
+    <string name="works" translatable="false">作品</string>
+    <string name="attention" translatable="false">关注</string>
+    <string name="fans" translatable="false">粉丝</string>
+
+
+    <!--mine-->
+    <string name="my_record" translatable="false">历史</string>
+    <string name="my_down" translatable="false">缓存</string>
+    <string name="my_collection" translatable="false">收藏</string>
+    <string name="my_them" translatable="false">主题</string>
+    <string name="clean" translatable="false">清除</string>
+    <string name="mine_title" translatable="false">我的</string>
+    <string name="theme_title" translatable="false">主题</string>
+
+    <string name="share" translatable="false">分享</string>
+    <string name="fuli" translatable="false">热映电影</string>
+    <string name="setting" translatable="false">设置</string>
+    <string name="feedback" translatable="false">更多</string>
+    <string name="collection" translatable="false">离线缓存</string>
+    <string name="download" translatable="false">观看记录</string>
+    <string name="about" translatable="false">关于我们</string>
+    <string name="close" translatable="false">关闭</string>
+    <string name="expand" translatable="false">展开</string>
+    <string name="shrink" translatable="false">收起</string>
+
+    <string name="search_history" translatable="false">搜索记录</string>
+    <string name="search_recommend" translatable="false">热门推荐</string>
+
+</resources>

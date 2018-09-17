@@ -1,0 +1,141 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.mob.sdk'
+
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "openeyes.dr.openeyes"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+configurations.all {
+    resolutionStrategy.force 'com.android.support:support-annotations:27.1.1'
+}
+
+MobSDK {
+    appKey "27a5a02e2a05c"
+    appSecret "68749b873bc54a35fd5fb566d3b35a27"
+
+    ShareSDK {
+
+           //平台配置信息
+        devInfo {
+            Wechat {
+                id 1
+                sortId 1
+                appId "wxe94f1f6bfb0db54a"
+                appSecret "4eb7da3d62aa042f5167d900d5ba7105"
+            }
+            QQ {
+                Id 2
+                SortId 2
+                appId "100371282"
+                appKey "aed9b0303e3ed1e27bae87c33761161d"
+                BypassApproval false
+                ShareByAppClient true
+                Enable= true
+            }
+            WechatMoments {
+                id 5
+                sortId 5
+                appId "wxe94f1f6bfb0db54a"
+                appSecret "4eb7da3d62aa042f5167d900d5ba7105"
+                bypassApproval false
+                enable true
+            }
+            QZone {
+                id 6
+                sortId 6
+                appId "1107814788"
+                appKey "TVpDllmaiml4sOKp"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+            SinaWeibo {
+                id 3
+                sortId 3
+                appKey "568898243"
+                appSecret "38a4f8204cc784f81f9f0daaf31e02e3"
+                callbackUri "http://www.sharesdk.cn"
+                shareByAppClient true
+                enable true
+            }
+            Facebook {
+                id 7
+                sortId 7
+                appKey "1412473428822331"
+                appSecret "a42f4f3f867dc947b9ed6020c2e93558"
+                callbackUri "https://mob.com"
+                shareByAppClient true
+                enable true
+            }
+            Email {
+                id 8
+                sortId 8
+                enable true
+            }
+            GooglePlus {
+                id 4
+                sortId 4
+                appId "236300675100-am5pm8km7md1memjevq8rl9pg5c4s4b8.apps.googleusercontent.com"
+                callbackUri "http://localhost"
+                shareByAppClient true
+                enable true
+            }
+        }
+    }
+
+    SMSSDK {
+           gui false
+    }
+
+    MobPush {
+
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile 'org.xutils:xutils:3.5.0'
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    compile project(':vitamio')
+    compile 'com.ogaclejapan.smarttablayout:utils-v4:1.6.1@aar'
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
+    compile 'me.imid.swipebacklayout.lib:library:1.1.0'
+    compile 'com.makeramen:roundedimageview:2.3.0'
+    compile 'com.github.bumptech.glide:glide:4.6.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:cardview-v7:21.0.3'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile "com.android.support:design:27.1.0"
+    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.4'
+}

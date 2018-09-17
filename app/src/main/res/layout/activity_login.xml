@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper_13"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/find_password"
+            android:paddingRight="10dp"
+            android:gravity="right"
+            android:text="找回密码"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <openeyes.dr.openeyes.widget.CustomTextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:text="Eyepetizer" />
+    <TextView
+        android:textSize="12sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:maxLines="2"
+        android:text="&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;登录后即可关注作者、\n发表评论、同步喜欢视频和播放记录"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/login_account"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号/邮箱地址"
+        app:met_textColorHint="@color/colorWhite"
+        app:met_textColor="@color/colorWhite"
+        app:met_primaryColor="#ffffff"
+        app:met_clearButton="true"
+        app:met_baseColor="@color/colorWhite"
+        app:met_iconLeft="@drawable/useraccount"
+        app:met_hideUnderline="true"
+
+        android:textSize="13sp"
+        app:met_iconPadding="1dp"
+        />
+    <View
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/hint_code"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/login_code"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:hint="请输入验证码"
+                app:met_textColorHint="@color/colorWhite"
+                app:met_textColor="@color/colorWhite"
+                app:met_primaryColor="#ffffff"
+                app:met_baseColor="@color/colorWhite"
+                app:met_iconLeft="@drawable/password"
+                app:met_hideUnderline="true"
+                android:textSize="13sp"
+                app:met_iconPadding="1dp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:id="@+id/get_code"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical"
+                android:textSize="10sp"
+                android:textColor="@color/colorGraylight"
+                android:text="获取验证码"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGray"/>
+
+    </LinearLayout>
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/login_password"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="请输入密码"
+        app:met_textColorHint="@color/colorWhite"
+        app:met_textColor="@color/colorWhite"
+        app:met_primaryColor="#ffffff"
+        app:met_clearButton="true"
+        app:met_baseColor="@color/colorWhite"
+        app:met_iconLeft="@drawable/password"
+        app:met_hideUnderline="true"
+        android:textSize="13sp"
+        app:met_iconPadding="1dp"
+        />
+    <View
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+
+    <Button
+        android:textSize="12sp"
+        android:id="@+id/login_btn"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/login_btn"
+        android:textColor="@color/colorGrayalpha"
+        android:text="登录"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp" />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/register"
+            android:textSize="12sp"
+            android:text="用户注册"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="作者登录"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/share_login"
+        android:layout_marginLeft="60dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:id="@+id/weibo"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/weibo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/wechat"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/qq"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/qqq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+    <LinearLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:text="登录或注册即同意开眼短视频"
+            android:textColor="@color/colorGray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/agreement"
+            android:textSize="15sp"
+            android:text="用户服务协议"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/cancle"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back_black"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginLeft="130dp"
+            android:text="我的关注"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+<in.srain.cube.views.ptr.PtrClassicFrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ptr_attention"
+    >
+
+    <ListView
+        android:scrollbars="none"
+        android:divider="@null"
+        android:id="@+id/lv_attention"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</in.srain.cube.views.ptr.PtrClassicFrameLayout>
+
+
+</LinearLayout>

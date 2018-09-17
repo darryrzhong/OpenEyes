@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_key"
+        android:gravity="center_vertical"
+        android:text="美食"
+        android:textColor="@color/colorAniBtns"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp" />
+
+    <View
+        android:background="@color/colorGrayalpha"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

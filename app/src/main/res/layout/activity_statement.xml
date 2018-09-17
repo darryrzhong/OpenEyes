@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/cancle"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/back_black"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+        <TextView
+            android:layout_marginLeft="130dp"
+            android:text="更多"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:background="@drawable/eyepelizer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/user_agreement"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="用户协议"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/copyright_notic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="版权声明"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/function_notic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="视频声明"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/versions_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="关于我们"
+        android:textSize="14sp" />
+
+    <openeyes.dr.openeyes.widget.CustomTextView
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily appetizers for your eyes，Bon eyepetit"
+        android:textColor="@color/colorGray" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGray"
+        android:text="㉧  2018  darryrzhong.site"
+        android:id="@+id/textView"
+        />
+
+
+</LinearLayout>

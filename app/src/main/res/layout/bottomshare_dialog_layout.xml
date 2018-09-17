@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:imagetext="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <openeyes.dr.openeyes.widget.CustomTextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily appetizers for your eyes，Bon eyepetit"
+        android:textColor="@color/colorGraylight" />
+    <openeyes.dr.openeyes.widget.CustomTextView
+        android:gravity="center"
+        android:text="-  更多精彩视频,尽在「开眼eyepelizer」-"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginTop="10dp"
+        android:background="@color/colorGraylight"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/share_wechat"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            imagetext:image="@drawable/share_wechat"
+            imagetext:text="@string/wechat"
+            imagetext:textColor="@color/colorGraylight"
+            >
+
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/share_moments"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            imagetext:image="@drawable/moments"
+            imagetext:text="@string/moments"
+            imagetext:textColor="@color/colorGraylight"
+            >
+
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/share_weibo"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            imagetext:image="@drawable/share_weibo"
+            imagetext:text="@string/weibo"
+            imagetext:textColor="@color/colorGraylight"
+            >
+
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/share_qq"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            imagetext:image="@drawable/share_qq"
+            imagetext:text="@string/qq"
+            imagetext:textColor="@color/colorGraylight"
+            >
+
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/share_qzone"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            imagetext:image="@drawable/qzone"
+            imagetext:text="@string/qzone"
+            imagetext:textColor="@color/colorGraylight"
+            >
+
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/share_more"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            imagetext:image="@drawable/more_choice"
+            imagetext:text="@string/more"
+            imagetext:textColor="@color/colorGraylight"
+            >
+
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+    </LinearLayout>
+
+    <View
+        android:layout_marginTop="5dp"
+        android:background="@color/colorGraylight"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <View
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+</LinearLayout>

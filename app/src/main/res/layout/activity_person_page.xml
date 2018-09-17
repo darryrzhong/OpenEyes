@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:imagetext="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+
+    >
+
+<android.support.design.widget.AppBarLayout
+    android:id="@+id/center_appbar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:elevation="0dp"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+
+    >
+
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:id="@+id/collapsing_toobar"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed"
+        app:contentScrim="@color/colorGraylight"
+        fresco:expandedTitleTextAppearance="@style/style_textsize1"
+        fresco:collapsedTitleTextAppearance="@style/style_textsize"
+        fresco:collapsedTitleGravity="left"
+       fresco:expandedTitleMarginTop="185dp"
+        fresco:expandedTitleGravity="left"
+        fresco:expandedTitleMarginStart="30dp"
+        >
+        <FrameLayout
+            app:layout_scrollFlags="scroll"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/avatar_max"
+                android:layout_width="match_parent"
+                android:layout_height="170dp" />
+
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="bottom"
+                android:id="@+id/avatar_min"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                fresco:actualImageScaleType="centerCrop"
+                fresco:placeholderImageScaleType="centerCrop"
+                fresco:roundedCornerRadius="50dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_marginTop="180dp"
+            app:layout_scrollFlags="scroll"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="60dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="right|center_vertical"
+                android:background="@drawable/login_btn"
+                android:gravity="center"
+                android:text="编辑资料"
+                android:textColor="@color/colorBlacklight"
+                android:textSize="10sp" />
+        </FrameLayout>
+
+        <TextView
+           android:layout_marginTop="230dp"
+            app:layout_scrollFlags="scroll"
+            android:textSize="10sp"
+            android:id="@+id/date"
+            android:layout_marginLeft="20dp"
+            android:text="2018.07.08注册"
+            android:textColor="@color/colorGraylight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:layout_collapseMode="pin"
+            android:layout_height="?attr/actionBarSize"
+            >
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.CollapsingToolbarLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGrayalpha"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/works"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            imagetext:image="@drawable/works2"
+            imagetext:text="@string/works"
+            imagetext:textColor="@color/colorGraylight"
+            >
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/attention"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            imagetext:image="@drawable/attention6"
+            imagetext:text="@string/attention"
+            imagetext:textColor="@color/colorGraylight"
+            >
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+        <openeyes.dr.openeyes.widget.CustomImageTextView
+            android:id="@+id/fans"
+            android:layout_marginLeft="90dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            imagetext:image="@drawable/works2"
+            imagetext:text="@string/fans"
+            imagetext:textColor="@color/colorGraylight"
+            >
+        </openeyes.dr.openeyes.widget.CustomImageTextView>
+    </LinearLayout>
+
+</android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
