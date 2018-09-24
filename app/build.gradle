@@ -4,7 +4,7 @@ apply plugin: 'com.mob.sdk'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "openeyes.dr.openeyes"
         minSdkVersion 19
@@ -12,6 +12,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86", "armeabi", "mips"
+        }
+
     }
     buildTypes {
         release {
