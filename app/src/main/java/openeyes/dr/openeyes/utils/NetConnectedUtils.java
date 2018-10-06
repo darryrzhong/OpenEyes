@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+
 /**
  * Created by darryrzhong on 2016/1/20.
  * 网络状态工具类
@@ -89,4 +90,6 @@ public class NetConnectedUtils {
         ret = networkInfo.isAvailable() & networkInfo.isConnected();
         return ret;
     }
+
+
 }

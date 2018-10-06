@@ -19,7 +19,13 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.gson.Gson;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -29,7 +35,10 @@ import cn.sharesdk.onekeyshare.OnekeyShare;
 import cn.sharesdk.onekeyshare.ShareContentCustomizeCallback;
 import openeyes.dr.openeyes.config.MyApplication;
 import openeyes.dr.openeyes.customdialog.ShareDialog;
+import openeyes.dr.openeyes.model.Weather;
+import openeyes.dr.openeyes.networks.API;
 import openeyes.dr.openeyes.utils.MyUtils;
+import openeyes.dr.openeyes.utils.NetConnectedUtils;
 import openeyes.dr.openeyes.utils.ToastUtil;
 import openeyes.dr.openeyes.view.activity.HotVideoActivity;
 import openeyes.dr.openeyes.view.activity.SearchActivity;
@@ -66,6 +75,8 @@ public class MainActivity extends AppCompatActivity {
     TextView tvHot;
     @BindView(R.id.desc)
     TextView userName;
+    @BindView(R.id.temp)
+    TextView temp;
     @BindView(R.id.main_menu)
     LinearLayout mainMenu;
     @BindView(R.id.weather_rl)
@@ -91,7 +102,29 @@ public class MainActivity extends AppCompatActivity {
         //获取fragment管理器
         fragmentManager = getSupportFragmentManager();
         initView();
+        initWeather();
 
+    }
+
+    private void initWeather() {
+        RequestQueue queue = Volley.newRequestQueue(this);
+        StringRequest request = new StringRequest(API.WEATHER, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+                Gson gson = new Gson();
+                Weather weather = gson.fromJson(response,Weather.class);
+                String tmp = weather.getHeWeather6().get(0).getNow().getTmp();
+               temp.setText(tmp);
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        }) ;
+
+        queue.add(request);
+        queue.start();
     }
 
     /*
@@ -342,4 +375,6 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         initUserInfo();
     }
+
+
 }

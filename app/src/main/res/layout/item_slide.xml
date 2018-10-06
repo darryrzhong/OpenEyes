@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="321dp"
+    android:layout_height="456dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="5dp"
+    app:elevation="10dp"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_above="@+id/rela_bottom"
+        />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_gravity="center"
+            android:background="@drawable/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/rela_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            >
+            <ImageView
+                android:id="@+id/img_date"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/date"
+                android:elevation="3dp"
+                />
+            <TextView
+                android:text="2018-9-09"
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_user"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="16dp"
+                android:singleLine="true"
+                />
+
+            <ImageView
+                android:id="@+id/img_tags"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="36dp"
+                android:background="@drawable/tags"
+                android:elevation="3dp"
+                />
+            <TextView
+                android:text="剧情"
+                android:id="@+id/tv_tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_user"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="16dp"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

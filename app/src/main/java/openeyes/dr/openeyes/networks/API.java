@@ -30,6 +30,8 @@ public interface API {
     public static final String VIDEO = "http://api.douban.com/v2/movie/subject/";
     public static final String VIDEO_ID ="?apikey=0b2bdeda43b5688921839c8ecb20399b&city=%E5%8C%97%E4%BA%AC&client=&udid=";
 
+    //天气接口
+    public static final String WEATHER = "https://free-api.heweather.com/s6/weather/now?location=wuxi&key=746d5b65bae249439419ecb319a8663e";
 
 
 }
