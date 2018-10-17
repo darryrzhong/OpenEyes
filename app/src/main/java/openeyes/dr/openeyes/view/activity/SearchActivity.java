@@ -78,6 +78,16 @@ public class SearchActivity extends AppCompatActivity {
         adapter = new SearchRecyclerAdapter(hotKeyWords);
         recyclerHot.setAdapter(adapter);
         recyclerHot.setItemAnimator(new DefaultItemAnimator());
+        adapter.setOnItemClickListener(new SearchRecyclerAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View itemview, SearchRecyclerAdapter.MyViewHolder childview, int position) {
+                Intent intent = new Intent(SearchActivity.this,SearchResultActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("keyWord",hotKeyWords.get(position).getKeyWord());
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
 
         searchHistories = db.loadSearchHistoryAll();
         if (searchHistories==null||searchHistories.size()==0){
@@ -133,16 +143,7 @@ public class SearchActivity extends AppCompatActivity {
             }
         });
 
-        adapter.setOnItemClickListener(new SearchRecyclerAdapter.OnItemClickListener() {
-            @Override
-            public void onItemClick(View itemview, SearchRecyclerAdapter.MyViewHolder childview, int position) {
-                Intent intent = new Intent(SearchActivity.this,SearchResultActivity.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("keyWord",hotKeyWords.get(position).getKeyWord());
-                intent.putExtras(bundle);
-                startActivity(intent);
-            }
-        });
+
 
 
     }

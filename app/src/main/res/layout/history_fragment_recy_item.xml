@@ -55,12 +55,12 @@
                 android:textColor="@color/colorAniBtn"
                 android:textSize="12sp"/>
             <TextView
-                android:layout_marginLeft="30dp"
                 android:text="7月21日"
                 android:padding="5dp"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/date"
+                android:gravity="center"
                 android:textColor="@color/colorGray"
                 android:textSize="12sp"/>
         </LinearLayout>
