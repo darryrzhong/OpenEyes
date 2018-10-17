@@ -12,7 +12,7 @@
 
 ![每日精选.jpeg](https://upload-images.jianshu.io/upload_images/5549640-ef22c0941a6f9fdf.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
 
-![发现更多.jpeg](https://upload-images.jianshu.io/upload_images/5549640-72381624c9e2d456.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
+![发现更多.jpg](https://upload-images.jianshu.io/upload_images/5549640-08668f635415b0dc.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
 
 ![热门排行.jpeg](https://upload-images.jianshu.io/upload_images/5549640-ea4e23af94e8b695.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/240)
 
